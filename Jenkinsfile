@@ -5,6 +5,7 @@ node ('maven'){
 }
 stage ('runningScript'){
     echo " running the script"
+    echo " running the script over and over " 
     sh "sh test.sh"
 }
 }
