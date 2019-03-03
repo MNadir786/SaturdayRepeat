@@ -7,5 +7,10 @@ stage ('runningScript'){
     echo " running the script"
     echo " running the script over and over " 
     sh "sh test.sh"
+    
 }
+    stage('Final') {
+     echo " The job is completed " 
+    }
+    
 }
