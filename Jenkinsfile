@@ -1,7 +1,7 @@
 node ('maven'){
     stage ('Checkout'){
     echo " cloning the repo "
-    git credentialsId: 'NAWAB786', url: 'https://github.com/MNadir786/SaturdayRepeat.git'
+    git credentialsId: 'Youarecool!', url: 'https://github.com/.git'
 }
 stage ('runningScript'){
     echo " running the script"
